@@ -1,0 +1,17 @@
+import React from 'react';
+import './App.css';
+import SearchBar from '../SearchBar/SearchBar.js';
+import BusinessList from '../BusinessList/BusinessList.js';
+
+
+function App() {
+  return (
+    <div className="App">
+      <h1>ravenous</h1>
+      <SearchBar />
+      <BusinessList />
+    </div>
+  );
+}
+
+export default App;
