@@ -1,4 +1,5 @@
-const apiKey = "Vbd5Sl9EAkyZKBvcAVV3gCZvgXxPX7tqzb1L4f175oRF4i7rp_Mx1RlN4N2KnA-2I10qCkctGdTSe8FZMWQnHOLHiXIrTXpAtuQPpd2YXQCT6kEVdJwbZX_t44AAYHYx"
+import  { ApiKey } from './apiKey'
+const apiKey = ApiKey;
 
 export const Yelp = {
     search(term, location, sortBy) {
